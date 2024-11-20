@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="50508" started-at="2023-05-23T15:34:07Z" finished-at="2023-05-23T15:34:57Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="50508" started-at="2023-05-23T15:34:07Z" finished-at="2023-05-23T15:34:57Z">
+      <class name="TestCase.MainTest">
+        <test-method status="PASS" signature="startup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.MainTest@501edcf1]" name="startup" is-config="true" duration-ms="44193" started-at="2023-05-23T21:04:07Z" finished-at="2023-05-23T21:04:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://amazon.in]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Stage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method status="PASS" signature="Launch_Application()[pri:0, instance:TestCase.MainTest@501edcf1]" name="Launch_Application" duration-ms="2540" started-at="2023-05-23T21:04:51Z" finished-at="2023-05-23T21:04:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch_Application -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:TestCase.MainTest@501edcf1]" name="tearDownMethod" is-config="true" duration-ms="1" started-at="2023-05-23T21:04:54Z" finished-at="2023-05-23T21:04:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Launch_Application status=SUCCESS method=MainTest.Launch_Application()[pri:0, instance:TestCase.MainTest@501edcf1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="Proceed_Checkout()[pri:1, instance:TestCase.MainTest@501edcf1]" name="Proceed_Checkout" duration-ms="2338" started-at="2023-05-23T21:04:54Z" finished-at="2023-05-23T21:04:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Proceed_Checkout -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:TestCase.MainTest@501edcf1]" name="tearDownMethod" is-config="true" duration-ms="1" started-at="2023-05-23T21:04:56Z" finished-at="2023-05-23T21:04:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Proceed_Checkout status=SUCCESS method=MainTest.Proceed_Checkout()[pri:1, instance:TestCase.MainTest@501edcf1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCase.MainTest@501edcf1]" name="tearDown" is-config="true" duration-ms="1392" started-at="2023-05-23T21:04:56Z" finished-at="2023-05-23T21:04:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCase.MainTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
